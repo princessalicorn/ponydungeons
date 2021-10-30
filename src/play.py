@@ -5,7 +5,7 @@ from clear import clear
 from Level import *
 from Player import *
 from Artifact import *
-from store import shop, shopvalues
+from Store import shop, shopvalues
 
 def rngattkfactor(name):
     toprngbound = 2 * name.strength
